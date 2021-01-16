@@ -1,0 +1,21 @@
+h1{
+    font-size: 30px !important;
+}
+canvas{
+    animation-name: color_change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.btn-success:hover{
+background-color: red;
+}
+@keyframes color_change{
+    from{box-shadow: 10px 58px 8px aqua;}
+    to{box-shadow: 1px 1px 38px rebeccapurple;}
+}
+
+#welcome{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
